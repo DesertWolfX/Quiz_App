@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz App</title>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="quiz" class="container text-center">
+        <h1>Quiz App</h1>
+        <button class="btn btn-primary" onClick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="container text-center">
+        <p id="questionOutput" class="lead"></p>
+        <p id="q1" class="lead"></p>
+        <p id="q2" class="lead"></p>
+        <p id="q3" class="lead"></p>
+        <p id="q4" class="lead"></p>
+        <p id="q5" class="lead"></p>
+        <input type="text" id="answerInput" onfocus="this.value=''" value=''>
+        <button class="btn btn-warning" onClick="nextQuestion()">Next Question</button>
+        <p id="results" class="lead">SCORE: </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

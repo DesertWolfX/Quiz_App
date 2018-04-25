@@ -1,0 +1,16 @@
+body {
+    background: #3d9970;
+    color: #fff;
+}
+
+#quiz {
+    margin-top: 300px;
+}
+
+#start {
+    box-shadow: 1px 3px 5px 2px #252525;
+}
+
+#answerInput {
+    color: black;
+}
